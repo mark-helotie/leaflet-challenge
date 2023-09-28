@@ -1,5 +1,5 @@
 //  United States Geological Survey (USGS) -- All Earthquakes from the Past 7 Days
-const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
+const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojson"
 
 d3.json(url).then(function(data) {
 
