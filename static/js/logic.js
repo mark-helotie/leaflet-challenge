@@ -1,5 +1,5 @@
-//  United States Geological Survey (USGS) -- Magnitude 1.0 and up Earthquakes from the Past 7 Days
-const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojson"
+//  United States Geological Survey (USGS) -- ALL Earthquakes from the Past 1 Day
+const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
 
 d3.json(url).then(function(data) {
 
